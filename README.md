@@ -1,6 +1,6 @@
-# SocioRug — Weave Your Experiences
+# EventRug — Weave Your Experiences
 
-SocioRug is an end-to-end EventTech and social experience platform designed to bridge the gap between digital booking and physical event execution. Rather than ending at the point of ticket sale, SocioRug connects the entire event lifecycle into a unified ecosystem for **Attendees**, **Organizers**, **Event Staff**, and **Platform Administrators**.
+EventRug is an end-to-end EventTech and social experience platform designed to bridge the gap between digital booking and physical event execution. Rather than ending at the point of ticket sale, EventRug connects the entire event lifecycle into a unified ecosystem for **Attendees**, **Organizers**, **Event Staff**, and **Platform Administrators**.
 
 ---
 
@@ -43,7 +43,7 @@ SocioRug is an end-to-end EventTech and social experience platform designed to b
 
 ```text
        ┌────────────────────────────────────────────────────────┐
-       │                  SocioRug Platform                     │
+       │                  EventRug Platform                     │
        └────────────────────────────────────────────────────────┘
                                    │
       ┌────────────────┬───────────┴────────────┬───────────────┐
@@ -83,8 +83,8 @@ SocioRug is an end-to-end EventTech and social experience platform designed to b
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/sociorug.git
-cd sociorug/backend
+git clone https://github.com/your-username/EventRug.git
+cd EventRug/backend
 
 ```
 
@@ -100,7 +100,7 @@ npm install
 Create a `.env` file in the `backend/` root:
 ```env
 PORT=5000
-DATABASE_URL=postgresql://user:password@localhost:5432/sociorug_db
+DATABASE_URL=postgresql://user:password@localhost:5432/EventRug_db
 REDIS_URL=redis://localhost:6379
 JWT_SECRET=your_super_secret_jwt_key
 
@@ -156,7 +156,7 @@ npx react-native run-ios
 ## Project Structure
 
 ```text
-sociorug/
+EventRug/
 ├── backend/
 │   ├── src/
 │   │   ├── controllers/      # Route controllers
