@@ -1,0 +1,21 @@
+{
+  "name": "eventrug",
+  "version": "1.0.0",
+  "description": "EventRug is an end-to-end EventTech and social experience platform designed to bridge the gap between digital booking and physical event execution. Rather than ending at the point of ticket sale, EventRug connects the entire event lifecycle into a unified ecosystem for **Attendees**, **Organizers**, **Event Staff**, and **Platform Administrators**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadBurhanArshad/EventRug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MuhammadBurhanArshad/EventRug/issues"
+  },
+  "homepage": "https://github.com/MuhammadBurhanArshad/EventRug#readme"
+}
